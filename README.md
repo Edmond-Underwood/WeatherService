@@ -27,6 +27,7 @@ This project is a Go HTTP server that exposes a `GetWeather` endpoint. The endpo
 ## Example request
 ```
 GET http://localhost:8080/GetWeather?lat=38.8977&lon=-77.0365
+e.g. curl GET "http://localhost:8080/GetWeather?lat=38&lon=-97"
 ```
 
 ## License - For TekSystems and Clients Dev Usage
